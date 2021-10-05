@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+.navbar{
+    
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(65, 64, 65);
+    
+}
+
+
+ul{
+    display: flex;
+}
+
+h1{
+    margin-left: 20px;
+    color: yellow;
+    font-size: 30px;  
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+    letter-spacing: 5px;
+
+}
+
+.home{
+    font-family: 'Poppins', sans-serif ;
+    margin: 200px 100px;
+    font-size: 35px;
+}
+ul li{
+    margin-right: 30px;
+    list-style-type: none;
+    padding: 20px;
+    
+    
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+ul li:hover{
+    background-color: rgb(44, 42, 42);
+}
